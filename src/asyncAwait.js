@@ -25,12 +25,12 @@ function processRequest(response) {
 
 async function doWork() {
     try {
-        const response = await makeRequest("FaceBook");
+        const response = await makeRequest("facebook");
         console.log(response);
         const processedRequest = await processRequest(response);
         console.log(processedRequest);
     } catch(error) {
-        console.log(error)
+        console.log('in catch block', error)
     }
 }
 doWork();
