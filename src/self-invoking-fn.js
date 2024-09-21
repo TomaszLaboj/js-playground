@@ -1,4 +1,5 @@
 // self invoking function
+// IIFE were used before ES6 to scoped
 (function showText() {
   console.log("some text");
 })();
