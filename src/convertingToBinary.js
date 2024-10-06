@@ -1,11 +1,11 @@
-function convertoToBinary(number) {
+function convertToBinary(number) {
   const digits = [];
   let quotient = number;
   while (quotient > 0) {
     digits.push(quotient % 2);
     quotient = Math.floor(quotient / 2);
   }
-  return digits;
+  return digits.reverse();
 }
 
 function convertToBinary2(number) {
@@ -38,3 +38,4 @@ function askUserForDecimalInput() {
 
 // askUserForDecimalInput();
 console.log(convertToBinary2(42));
+console.log(convertToBinary(42));
