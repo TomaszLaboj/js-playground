@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="closures.js" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v21.7.1/bin/node" nameIsGenerated="true" path-to-js-file="closures.js" working-dir="$PROJECT_DIR$/src">
+    <method v="2" />
+  </configuration>
+</component>
