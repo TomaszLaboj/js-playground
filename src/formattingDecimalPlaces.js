@@ -9,6 +9,6 @@
  */
 
 const formatDecimalPlaces = (number) => {
-  return number * 100;
+  return Math.round(number * 100) / 100;
 };
 console.log(formatDecimalPlaces(5.5589));

@@ -6,7 +6,7 @@ const factorial = (n) => {
   }
 };
 
-console.log("factorial", factorial(10));
+console.log("factorial", factorial(3));
 
 const fibonacci = (n) => {
   if (n <= 2) {
